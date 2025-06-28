@@ -1,12 +1,23 @@
-# React + Vite
+# 📝 Analizador de Texto en Español
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un **analizador de texto** construido con **React** que permite contar y analizar características del texto en español. Ofrece métricas útiles como número de caracteres, palabras, frases, párrafos, y las palabras más comunes, con opciones para ignorar categorías gramaticales como determinantes, preposiciones, pronombres, adverbios y conjunciones.
 
-Currently, two official plugins are available:
+![](https://raw.githubusercontent.com/MarcpTr/text-analyzer/refs/heads/main/main.JPG)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Características
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Conteo en tiempo real de:
+  - Caracteres
+  - Palabras
+  - Frases
+  - Párrafos
+  - Longitud media de palabras
+  - Palabra más larga
+- Análisis de palabras clave personalizadas
+- Top 5 de palabras más comunes (ignorando categorías seleccionadas)
+- Opciones para **ignorar** automáticamente:
+  - Determinantes
+  - Preposiciones
+  - Pronombres
+  - Adverbios comunes
+  - Conjunciones
